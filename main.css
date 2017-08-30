@@ -1,0 +1,49 @@
+.header {
+    background: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_item a {
+    color: white;
+    display: block;
+    padding: 1em;
+}
+
+.header_item a:hover {
+    background: orangered;
+}
+
+.banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner_container {
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner_container h1 {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    display: inline;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.banner_container p {
+    padding: 10px;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
