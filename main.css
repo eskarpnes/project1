@@ -54,7 +54,7 @@ h3 {
     background-color: rgba(0,0,0,0.5);
 }
 
-.arcticles {
+.articles {
     display: flex;
     flex-direction: column;
     justify-content: center;
