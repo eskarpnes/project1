@@ -1,3 +1,7 @@
+h3 {
+    font-size: 30px;
+}
+
 .header {
     background: red;
     display: flex;
@@ -8,6 +12,8 @@
     color: white;
     display: block;
     padding: 1em;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
 }
 
 .header_item a:hover {
@@ -44,6 +50,35 @@
     font-family: "Indie Flower", cursive;
     font-size: 20px;
     display: inline;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.arcticles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pizza_description {
+    padding: 10px;
+    margin: 40px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,0,0,0.4);
+    max-width: 1000px;
+}
+
+.pizza_description img {
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.pizza_text {
+    padding: 10px;
+    margin: 40px;
     color: white;
     background-color: rgba(0,0,0,0.5);
 }
