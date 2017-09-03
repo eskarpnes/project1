@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>The ultimate pizzaguide</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="header">
@@ -21,7 +23,7 @@
             <a href="#restaurants">Restaurants in Trondheim</a>
         </div>
     </div>
-    <div class="banner">
+    <div class="banner fade_in" id="test">
         <div class="banner_container">
             <h1>The Ultimate Pizzaguide</h1>
         </div>
@@ -31,56 +33,59 @@
         </p>
         </div>
     </div>
-    <div class="articles">
-    <a name="frozen" />
-    <div class="pizza_description">
-        <div class="pizza_picture">
-            <img src="img/grandiosa.png">
-        </div>
-        <div class="pizza_text">
-            <h3>Frozen Pizza</h3>
-            <p>You can't go wrong with a classic frozen pizza! Enjoy a tasty Grandiosa or a juicy Big One. The perfect
-            meal for a student, both easy, cheap, and delicious. Just remember that there is such a thing as too much
-                of a good thing!</p>
+    <div class="quote_wrapper">
+        <div class="quote fade_in">
+            <h3 id="quote">"There is no such thing as too much cheese on a pizza"</h3>
+            <h3 id="person">- Aristoteles, 360bc</h3>
         </div>
     </div>
-    <a name="homemade" />
-    <div class="pizza_description">
-        <div class="pizza_picture">
-            <img src="img/homemade_pizza.jpg">
+    <div class="articles fade_in">
+        <div class="pizza_description" id="frozen">
+            <div class="pizza_picture">
+                <img src="img/grandiosa.png" alt="frozen pizza">
+            </div>
+            <div class="pizza_text">
+                <h3>Frozen Pizza</h3>
+                <p>You can't go wrong with a classic frozen pizza! Enjoy a tasty Grandiosa or a juicy Big One. The perfect
+                meal for a student, both easy, cheap, and delicious. Just remember that there is such a thing as too much
+                    of a good thing!</p>
+            </div>
         </div>
-        <div class="pizza_text">
-            <h3>Homemade Pizza</h3>
-            <p>So you're a crafty guy/girl that can make a pizza yourself? Swell! Just make (or buy!) a dough, and get
-            crafty with the topping. I can recommend a nice pepperoni/beef mix, or the classic with rocket salad and
-            parmesan. You can also experiment with different cheeses and spices. Find your favorite and enjoy it!</p>
+        <div class="pizza_description" id="homemade">
+            <div class="pizza_picture">
+                <img src="img/homemade_pizza.jpg" alt="homemade pizza">
+            </div>
+            <div class="pizza_text">
+                <h3>Homemade Pizza</h3>
+                <p>So you're a crafty guy/girl that can make a pizza yourself? Swell! Just make (or buy!) a dough, and get
+                crafty with the topping. I can recommend a nice pepperoni/beef mix, or the classic with rocket salad and
+                parmesan. You can also experiment with different cheeses and spices. Find your favorite and enjoy it!</p>
+            </div>
+        </div>
+        <div class="pizza_description" id="italian">
+            <div class="pizza_picture">
+                <img src="img/italian_pizza.jpg" alt="italian pizza">
+            </div>
+            <div class="pizza_text">
+                <h3>Italian Style Pizza</h3>
+                <p>So your taste in pizza is a bit more on the expensive side? Not much can beat a good italian style pizza,
+                 with a crunchy crust and savory topping. Not everyone has a stone-oven in their home, but this can be
+                 circumvented with either a pizza stone or an appliance like the Pizza Dragon from OBH Nordica (The writer
+                 of this article highly recommends it!)</p>
+            </div>
+        </div>
+        <div class="pizza_description" id="restaurants">
+            <div class="pizza_picture">
+                <img src="img/restaurant.jpg" alt="restaurant">
+            </div>
+            <div class="pizza_text">
+                <h3>Restaurants in Trondheim</h3>
+                <p>So you got money burning in your pocket? Why not let someone else make your pizza? There are multiple
+                 tiers of pizza in Trondheim, ranging from Una Pizzeria on Solsiden to the Pizzabakeren spread around the
+                city. Everyone got a preference, and you are free to choose whichever you like.</p>
+            </div>
         </div>
     </div>
-    <a name="italian" />
-    <div class="pizza_description">
-        <div class="pizza_picture">
-            <img src="img/italian_pizza.jpg">
-        </div>
-        <div class="pizza_text">
-            <h3>Italian Style Pizza</h3>
-            <p>So your taste in pizza is a bit more on the expensive side? Not much can beat a good italian style pizza,
-             with a crunchy crust and savory topping. Not everyone has a stone-oven in their home, but this can be
-             circumvented with either a pizza stone or an appliance like the Pizza Dragon from OBH Nordica (The writer
-             of this article highly recommends it!)</p>
-        </div>
-    </div>
-    <a name="restaurants" />
-    <div class="pizza_description">
-        <div class="pizza_picture">
-            <img src="img/restaurant.jpg">
-        </div>
-        <div class="pizza_text">
-            <h3>Restaurants in Trondheim</h3>
-            <p>So you got money burning in your pocket? Why not let someone else make your pizza? There are multiple
-             tiers of pizza in Trondheim, ranging from Una Pizzeria on Solsiden to the Pizzabakeren spread around the
-            city. Everyone got a preference, and you are free to choose whichever you like.</p>
-        </div>
-    </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>

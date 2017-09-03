@@ -1,0 +1,20 @@
+Siden er laget etter følgende krav:
+
+  1  I websiden skal det benyttes CSS for å stile elementene og vi forventer at det er lagt ned litt arbeid i å lage en visuelt tiltalende side.
+  2  I websiden skal du bruke CSS Flexbox layout for å posisjonere elementene (CSS Flexible Box Layout Module, sjekk på web hva det er).
+  3  Bruk Javascript for gjøre noen ett eller flere elementer på siden interaktiv (hva dette skal være og hvor avansert du vil gjøre det er helt opp til deg).
+  4  Siden skal ha et favicon (sjekk på web hva dette er)
+  5  Siden skal være gyldig HTML (kunne valideres av W3C markup validator) og være testet for forskjellige weblesere
+  6  CSS og Javascript skal være i egne filer
+  7  Lag lettlest dokumentasjon hvor du forklarer kort hvor/hvordan du har løst kravene over
+
+Kravene er løst ved:
+
+1: CSS er brukt, som sett i style.css filen
+2: Header, banner og artikler bruker flex for å plassere elementene
+3: Javascript ble brukt for å animere og skifte "quotes" om pizza, som sett i script.js
+4: Favicon er på plass, såklart i form av en pizza
+5: Siden ble validert av W3C markup (https://validator.w3.org/). Den fikk en error på lastingen av Google Font med ikke godkjent url (inneholdt tegnet | ),
+men ettersom dette er en link gitt av Google stoler jeg på den.
+6: CSS og Javascript er i egne filer
+7: Dette er dokumentasjonen!
